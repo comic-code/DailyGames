@@ -4,5 +4,6 @@ export interface GameProps {
   description: string;
   image_url: string;
   platforms: string[];
-  release: string
+  release: string;
+  categories: string[];
 }
